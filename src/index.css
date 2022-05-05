@@ -1,13 +1,65 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Barrio&family=Bungee+Outline&family=Butcherman&family=Eagle+Lake&family=MedievalSharp&family=Reggae+One&family=Rubik+Glitch&family=Stick&family=Train+One&display=swap");
+
+/* font-family: 'Barrio', cursive;
+font-family: 'Bungee Outline', cursive;
+font-family: 'Butcherman', cursive;
+font-family: 'Eagle Lake', cursive;
+font-family: 'MedievalSharp', cursive;
+font-family: 'Reggae One', cursive;
+font-family: 'Rubik Glitch', cursive;
+font-family: 'Stick', sans-serif;
+font-family: 'Train One', cursive; */
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Train One", cursive;
+  background: #333;
+}
+h1,
+h2,
+h3,
+h4,
+a,
+p {
+  color: #fff;
+}
+a {
+  text-decoration: none;
+  transition: 0.5s;
+}
+a:hover {
+  opacity: 0.6;
+}
+ul {
+  list-style-type: none;
+}
+.btn {
+  padding: 12px 32px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background: rgb(255, 0, 0);
+  color: #222;
+  border: 1px solid rgb(255, 0, 0);
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.btn-light {
+  /* background: rgba(255, 255, 255, 0.2); */
+  background: transparent;
+  color: #fff;
+}
+
+.btn:hover {
+  background: rgb(255, 255, 255);
+  color: rgb(255, 0, 0);
+  border: 1px solid rgb(255, 255, 255);
 }

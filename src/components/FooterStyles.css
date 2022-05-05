@@ -1,0 +1,63 @@
+.footer {
+  width: 100%;
+  padding: 6rem 0;
+  background: rgba(19, 19, 19, 0.8);
+  font-family: "MedievalSharp", cursive;
+}
+.footer svg {
+  font-size: 20px;
+  color: #fff;
+  margin-right: 2rem;
+}
+.footer-container {
+  max-width: 1140px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 40px;
+}
+.left {
+  height: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+.location {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.8rem;
+}
+.location p {
+  line-height: 30px;
+}
+.email h4,
+.phone h4 {
+  display: flex;
+  align-items: center;
+  line-height: 30px;
+  margin-bottom: 0.8rem;
+}
+.right {
+  height: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+.right h4 {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+.right p {
+  line-height: 20px;
+}
+.social {
+  margin-top: 1rem;
+}
+
+@media screen and (max-width: 640px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+  }
+}
