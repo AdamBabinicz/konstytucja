@@ -43,21 +43,21 @@ const Footer = () => {
           </p>
           <div className="social">
             <Link
-              to="//www.facebook.com/groups/679118292154219"
+              to="//www.facebook.com/groups/69141925912"
               target="_blank"
               rel="noopener noreferer"
             >
               <FaFacebookF />
             </Link>
             <Link
-              to="//mobile.twitter.com/tvp_kultura/status/707853680016543744"
+              to="//twitter.com/mswia_gov_pl/status/1389090602906685447"
               target="_blank"
               rel="noopener noreferer"
             >
               <FaTwitter />
             </Link>
             <Link
-              to="//pl.pinterest.com/teatrmuzyczny/skrzypek-na-dachu-fot-micha%C5%82-matuszak"
+              to="//pl.pinterest.com/elbietaszczniak/konstytucja-3-maja"
               target="_blank"
               rel="noopener noreferer"
             >
