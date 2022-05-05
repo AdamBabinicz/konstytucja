@@ -39,9 +39,7 @@ const AboutContent = () => {
           </p>
           <br />
           <p>
-            <em>
-              historia.org.pl/2021/05/02/czy-konstytucja-3-maja-byla-nielegalna-okolicznosci-jej-uchwalenia-byly-dramatyczne
-            </em>
+            <em>historia.org.pl/2021/05/02/</em>
           </p>
         </Modal>
       </div>
