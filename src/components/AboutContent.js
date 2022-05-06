@@ -51,7 +51,7 @@ const AboutContent = () => {
           <div className="img-stack bottom">
             <img src={img1} alt="..." className="img" />
             <p>
-              Stanisław Szczęsny (zdrajca) - polski polityk o orientacji
+              Stanisław Szczęsny Potocki (zdrajca) - polski polityk o orientacji
               prorosyjskiej
             </p>
           </div>
