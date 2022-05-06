@@ -38,6 +38,9 @@
   bottom: 0;
   width: 50%;
 }
+.img-stack p {
+  font-family: "MedievalSharp", cursive;
+}
 
 @media screen and (max-width: 740px) {
   .about {
